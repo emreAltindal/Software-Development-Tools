@@ -14,6 +14,7 @@ public class Main {
         Arrays.sort(table);
         System.out.println("\nSorted table:");
         for (int i = 0; i < table.length; i++) {
+            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!");
             System.out.println("Index " + i + ": " + table[i]);
         }
     }
