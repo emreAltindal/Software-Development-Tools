@@ -10,6 +10,7 @@ public class Main {
         for (int i = 0; i < table.length; i++) {
             table[i] = rand.nextInt(100);
             System.out.println("Index " + i + ": " + table[i]);
+            System.out.pritln.("Nazar`s column");
         }
         Arrays.sort(table);
         System.out.println("\nSorted table:");
